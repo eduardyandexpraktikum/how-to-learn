@@ -62,7 +62,7 @@
 
 .link-animation {
     transition-property: opacity;
-    transition: ease 1s
+    transition: ease 1s;
 }
 
 .link-animation:hover {
