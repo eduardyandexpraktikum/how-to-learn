@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/vendor/normalize.css">
   <link rel="stylesheet" href="page/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -112,16 +111,18 @@
         <p class="section-subtitle">
           Для тех, кто любит прокрастинировать
         </p>
-        <div class="video__iframes">
-          <iframe id="ytplayer1" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
-            class="video__iframe">
-          </iframe>
-          <iframe id="ytplayer2" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
-            class="video__iframe">
-          </iframe>
-        </div>
+        <ul class="video__iframes">
+          <li>
+            <iframe id="ytplayer1" src="https://www.youtube.com/embed/arj7oStGLkU" class="video__iframe">
+            </iframe>
+          </li>
+          <li>
+            <iframe id="ytplayer2" src="https://www.youtube.com/embed/5MgBikgcWnY" class="video__iframe">
+            </iframe>
+          </li>
+        </ul>
       </section>
-      <section class="oakley">
+      <section class="oakley" aria-label="Секция со статьей">
         <article class="two-columns">
           <h2 class="two-columns__brief">
             История Барбары Оакли.
@@ -149,7 +150,7 @@
       </section>
       <section class="digits">
         <h2 class="section-title section-title_theme_light">
-          Цифры и Факты
+          Цифры и факты
         </h2>
         <p class="section-subtitle section-subtitle_theme_light">
           Про учёбу и мозг
@@ -235,11 +236,11 @@
           <h2 class="khan__title">
             Весь мир — школа
           </h2>
-          <p class="khan__quote">
+          <blockquote class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир —
             школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и
             знания, которые приносят успех в школе, карьере и жизни.
-          </p>
+          </blockquote>
           <p class="khan__quote-author">
             Джордж Лукас
           </p>
@@ -351,20 +352,24 @@
         <p class="section-subtitle">
           Больше материалов о техниках и лайфхаках обучения
         </p>
-        <div class="resources__logo-zone">
-          <a href="#" class="resources__link link-animation">
-            <img src="images/logo/resources-arzamas.svg" alt="Арзамас" class="resources__logo">
-          </a>
-          <a href="#" class="resources__link link-animation">
-            <img src="images/logo/resources-n1.svg" alt="Н1" class="resources__logo">
-          </a>
-          <a href="#" class="resources__link link-animation">
-            <img src="images/logo/resources-strelka.svg" alt="Стрелка" class="resources__logo">
-          </a>
-          <a href="#" class="resources__link link-animation">
-            <img src="images/logo/resources-polka.svg" alt="Полка" class="resources__logo">
-          </a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a href="#" class="resources__link link-animation">
+              <img src="images/logo/resources-arzamas.svg" alt="Арзамас" class="resources__logo">
+            </a>
+          </li>
+          <li><a href="#" class="resources__link link-animation">
+              <img src="images/logo/resources-n1.svg" alt="Н1" class="resources__logo">
+            </a>
+          </li>
+          <li><a href="#" class="resources__link link-animation">
+              <img src="images/logo/resources-strelka.svg" alt="Стрелка" class="resources__logo">
+            </a>
+          </li>
+          <li><a href="#" class="resources__link link-animation">
+              <img src="images/logo/resources-polka.svg" alt="Полка" class="resources__logo">
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
